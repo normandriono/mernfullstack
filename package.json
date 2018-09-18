@@ -1,34 +1,34 @@
 {
   "name": "mernfullstack",
   "version": "1.0.0",
-  "description": "learning MERN",
+  "description": "MERN socialnetwork",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js"
   },
+  "author": "normandriono",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "gravatar": "^1.6.0",
+    "jsonwebtoken": "^8.2.0",
+    "mongoose": "^5.0.12",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^9.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/normandriono/mernfullstack.git"
   },
-  "author": "normandriono",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/normandriono/mernfullstack/issues"
   },
-  "homepage": "https://github.com/normandriono/mernfullstack#readme",
-  "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3",
-    "gravatar": "^1.6.0",
-    "jsonwebtoken": "^8.3.0",
-    "mongoose": "^5.2.15",
-    "passport": "^0.4.0",
-    "passport-jwt": "^4.0.0",
-    "validator": "^10.7.1"
-  },
-  "devDependencies": {
-    "nodemon": "^1.18.4"
-  }
+  "homepage": "https://github.com/normandriono/mernfullstack#readme"
 }
